@@ -1,0 +1,19 @@
+{
+  "artificialDelayMilliseconds": 1000,
+  "keepExistingTerminalsOpen": false,
+  "runOnStartup": true,
+  "terminals": [
+    {
+      "splitTerminals": [
+        {
+          "name": "php server",
+          "commands": [" ","npm run dev"]
+        },
+				{
+					"name": "main",
+					"commands": [" "]
+				}
+      ]
+    }
+  ]
+}
