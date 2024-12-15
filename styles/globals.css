@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "DM Mono", serif;
+  }
+  body {
+    margin: 0;
+  }
+
+  /* COLOR MAIN */
+  .bg-gray {
+    background-color: #4A4A4A;
+  }
+  .bg-brown {
+    background-color: #c0af90;
+  }
+  .bg-orange {
+    background-color: #ffffff;
+  }
+  .bg-orange:hover {
+    background-color: #ea9330;
+  }
+
+  /* FONT FAMILY */
+  .caveat {
+    font-family: "Caveat";
+  }
+  .warung-kopi {
+    font-family: 'Warung Kopi', sans-serif;
+  }
+  .redacted-script-light {
+    font-family: "Redacted Script", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .redacted-script-regular {
+    font-family: "Redacted Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .redacted-script-bold {
+    font-family: "Redacted Script", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }  
+  .dm-mono-light {
+    font-family: "DM Mono", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .dm-mono-regular {
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-mono-medium {
+    font-family: "DM Mono", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .dm-mono-light-italic {
+    font-family: "DM Mono", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .dm-mono-regular-italic {
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .dm-mono-medium-italic {
+    font-family: "DM Mono", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+}
